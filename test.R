@@ -111,84 +111,84 @@ length(x)
 
 ################################################################
 ####################################################
-
-only_hw<- mongo.find.all(mongo,coll,
-                         query='{"type":"homework"}'
-)
-
-
-
-class(students)
-
-
-
-
--------------------
-# test_remove<-remove[seq(1,length(only_hws),2)]
-#  
-# seq(1, 400, 2)
 # 
-# myList<-only_hws
+# only_hw<- mongo.find.all(mongo,coll,
+#                          query='{"type":"homework"}'
+# )
 # 
-# head(myList,2)
+# 
+# 
+# class(students)
 # 
 # 
 # 
 # 
-# myList[[1,2]] <- NULL 
-# 
-# 
-# # myList[[1]]
-# 
-# # lapply(myList,
-# #        )
-# 
-# # lapply(myList, 
-# #        
-# isNameInIndex <- names(myList) %in% index
-# myList[!isNameInIndex]
-# 
-# 
-# suu <- list(NULL, NULL, 1:2, matrix(1:4, 2))
-# suu[!sapply(suu, is.null)]
-# 
-# new<-as.data.frame(unlist(myList)) 
-# 
-# as.list(new)
-# 
-# class(new)
-# myList[which(names(myList) %in% (seq(1, 400, 2)))] <- NULL
+# -------------------
+# # test_remove<-remove[seq(1,length(only_hws),2)]
+# #  
+# # seq(1, 400, 2)
 # # 
+# # myList<-only_hws
+# # 
+# # head(myList,2)
+# # 
+# # 
+# # 
+# # 
+# # myList[[1,2]] <- NULL 
+# # 
+# # 
+# # # myList[[1]]
+# # 
+# # # lapply(myList,
+# # #        )
+# # 
+# # # lapply(myList, 
+# # #        
+# # isNameInIndex <- names(myList) %in% index
+# # myList[!isNameInIndex]
+# # 
+# # 
+# # suu <- list(NULL, NULL, 1:2, matrix(1:4, 2))
+# # suu[!sapply(suu, is.null)]
+# # 
+# # new<-as.data.frame(unlist(myList)) 
+# # 
+# # as.list(new)
+# # 
+# # class(new)
+# # myList[which(names(myList) %in% (seq(1, 400, 2)))] <- NULL
+# # # 
+# # 
+# # my_list <- unlist(myList)
+# #  
+# # myList<-my_list
+# # my_list <- my_list[-2]
 # 
-# my_list <- unlist(myList)
+# #  ------------------------------------------------------------------------
+# 
+# 
+#  mongo.remove(mongo, "students.grades", only_hw_bson)
 #  
-# myList<-my_list
-# my_list <- my_list[-2]
-
-#  ------------------------------------------------------------------------
-
-
- mongo.remove(mongo, "students.grades", only_hw_bson)
- 
- 
-only_hw<- mongo.find.all(mongo,coll,
-                         query='{"type":"homework"}'
-                           )
- 
-
-
- class(students)
- 
- 
-################# 
- 
- class(coll)
-  head(res, 2)
-
-  class(res)
-  
-  # cityone <- mongo.find.one(mongo, coll, '{"city":"COLORADO CITY"}')
-  print( cityone )
-  mongo.bson.to.list(cityone)
-  
+#  
+# only_hw<- mongo.find.all(mongo,coll,
+#                          query='{"type":"homework"}'
+#                            )
+#  
+# 
+# 
+#  class(students)
+#  
+#  
+# ################# 
+#  
+#  class(coll)
+#   head(res, 2)
+# 
+#   class(res)
+#   
+#   # cityone <- mongo.find.one(mongo, coll, '{"city":"COLORADO CITY"}')
+#   print( cityone )
+#   mongo.bson.to.list(cityone)
+#   
   
