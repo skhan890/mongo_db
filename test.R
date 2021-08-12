@@ -20,6 +20,7 @@ mongo.get.databases(mongo)
 
 if(mongo.is.connected(mongo) == TRUE) {
   db <- "students"
+  
   mongo.get.database.collections(mongo, db)
 }
 coll <- "students.grades"
@@ -28,6 +29,7 @@ coll2<-"test.names"
 
 if(mongo.is.connected(mongo) == TRUE) {
   help("mongo.count")
+  
   mongo.count(mongo, coll)
 }
 
@@ -108,6 +110,7 @@ for(i in 1:length(bad_ids)){
 
 x <- mongo.find.all(mongo,ns)
 length(x)
+
 
 ################################################################
 ####################################################
